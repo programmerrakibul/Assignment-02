@@ -20,7 +20,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body
-    class="text-sm md:text-base text-[rgba(0,0,0,0.5)] font-[Inter] font-normal bg-[#F5F8FF]"
+    class="text-sm md:text-lg lg:text-[22px] text-[rgba(0,0,0,0.5)] font-[Inter] font-normal bg-[#F5F8FF]"
   >
     <!-- Header Area Starts Here -->
     <header class="mb-16">
@@ -81,6 +81,36 @@
             </li>
           </ul>
         </nav>
+
+        <!-- Banner Area -->
+        <div
+          class="flex flex-col-reverse items-end md:flex-row justify-between gap-7 md:gap-0 mt-7 md:mt-32"
+        >
+          <!-- Banner Left -->
+          <div class="md:flex-1/2">
+            <div class="md:max-w-[570px]">
+              <h1
+                class="text-2xl text-[#E95A08] md:text-[40px] lg:text-6xl font-[Noto_Serif] font-bold max-w-[315px] md:max-w-full lg:leading-20"
+              >
+                <span class="text-black">ALWAYS</span> FRESH FLOWERS
+              </h1>
+              <p class="mt-3">
+                Indulge your senses with the beauty and fragrance of our fresh
+                flower shop. From classic roses to exotic blooms, we offer a
+                wide variety of fresh flowers that are perfect for any occasion.
+              </p>
+            </div>
+          </div>
+
+          <!-- Banner Right -->
+          <div class="md:flex-1/2">
+            <img
+              class="max-w-full md:ml-auto"
+              src="assets/images/hero-flower.png"
+              alt="Flowers"
+            />
+          </div>
+        </div>
       </div>
     </header>
   </body>
